@@ -33,9 +33,7 @@ public class ProblemaB {
 		StringBuilder aux = new StringBuilder();// Concatenar cada uno de los caracteres
 
 		for (int i = 0; i < tamanioZoom; i++) {
-			// 0 = aaa -> agregarlo a auxArr
-			// 1 = bbb -> agregarlo a auxArr
-			// 2 = ccc -> agregarlo a auxArr
+			
 			for (int j = 0; j < auxArr.length; j++) {
 				aux.append(cadenaArr[i]);
 			}

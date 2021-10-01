@@ -43,8 +43,6 @@ public class ProblemaD {
 				    }
 				}
 			}
-			
-			//(condicion) ? SÏCumplio : NoCumplio
 			System.out.println("");
 			System.out.println("POBLACION :" + _poblacion);
 			System.out.println("TIPOS DE CULTIVOS : " + (map.containsKey('*') ? (map.size() - 1) : map.size()));

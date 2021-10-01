@@ -20,12 +20,13 @@ public class ProblemaA {
 			if (numero > 0 && numero < Math.pow(10, 9)) {// verificacion de numero natural
 				
 				if (numero % 7 == 0) {// es multiplo de 7
-					System.out.println("El numero que insertaste es : ");
+					System.out.println("");
 					System.out.println("pi");
 				} else {
 					char[] cadenaArr = cadena.toCharArray();
 
 					if (Character.getNumericValue(cadenaArr[cadenaArr.length - 1]) == 7) {
+						System.out.println("");
 						System.out.println("pi");
 					} else {
 						int acumulado = 0;
@@ -35,13 +36,16 @@ public class ProblemaA {
 							acumulado = acumulado + Character.getNumericValue(cadenaArr[i]);
 						}
 						if (acumulado % 7 == 0) {
+							System.out.println("");
 							System.out.println("pi");
 						} else {
+							System.out.println("");
 							System.out.println(numero);
 						}
 					}
 				}
 			} else {
+				System.out.println("");
 				System.out.println(numero);
 			}
 		} catch (Exception e) {

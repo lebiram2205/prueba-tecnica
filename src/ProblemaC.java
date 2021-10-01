@@ -32,7 +32,8 @@ public class ProblemaC {
 				}
 			}
 		}
-		System.out.println(contadorPi);
+		System.out.println("Existen " + contadorPi + " PI perfectos");
+		System.out.println();
 
 	}
 }
